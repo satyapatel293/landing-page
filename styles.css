@@ -2,6 +2,8 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+
+/* Part 1 edits */
 .part1 {
     background-color: #1F2937;
 }
@@ -67,7 +69,35 @@ body {
     border: none;
 }
 
-img {
+.topimage {
     width: 450px;
 }
 
+/* Part 2 edits */
+
+.part2 {
+    text-align: center;
+}
+
+.info {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    padding: 40px;
+
+}
+
+.trips {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 40px;
+}
+
+.infoimage {
+    width: 200px;
+}
+
+.trip {
+    width: 250px;
+}
