@@ -2,7 +2,6 @@ body {
     font-family: Roboto, sans-serif;
 }
 
-
 /* Part 1 edits */
 .part1 {
     background-color: #1F2937;
@@ -38,6 +37,7 @@ body {
 
 .content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 100px 20px;
@@ -146,8 +146,6 @@ body {
     background-color: #3882F6;
     padding: 40px 40px;
     border-radius: 8px;
-
-
 }
 
 .down {
